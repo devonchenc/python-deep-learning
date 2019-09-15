@@ -9,4 +9,4 @@ Python tutorial and deep learning fundamental
 ## Chapter06. Functions and modules
 ## Chapter07. Classes and OOP
 ## Chapter08. Numpy and matplotlib
-## Chapter09. Neural_network
+## Chapter09. Perceptron and neural network
