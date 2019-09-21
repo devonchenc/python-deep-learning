@@ -10,3 +10,4 @@ Python tutorial and deep learning fundamental
 ## Chapter07. Classes and OOP
 ## Chapter08. Numpy and matplotlib
 ## Chapter09. Perceptron and neural network
+## Chapter10. Loss funtion and back propagation
