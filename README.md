@@ -12,7 +12,7 @@ Python tutorial and deep learning fundamental
 ## Chapter09. Perceptron and neural networks
 ## Chapter10. Neural network learning
 ## Chapter11. Back propagation algorithm
-## Chapter12. Regularization
+## Chapter12. Optimization and regularization
 ## Chapter13. Convolutional neural networks
 ## Chapter14. Residual networks
 ## Chapter15. Semantic segmentation
