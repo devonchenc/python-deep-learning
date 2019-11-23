@@ -36,14 +36,11 @@ class SimpleConvNet:
 
         # 初始化权重
         self.params = {}
-        self.params['W1'] = weight_init_std * \
-                            np.random.randn(filter_num, input_dim[0], filter_size, filter_size)
+        self.params['W1'] = weight_init_std * np.random.randn(filter_num, input_dim[0], filter_size, filter_size)
         self.params['b1'] = np.zeros(filter_num)
-        self.params['W2'] = weight_init_std * \
-                            np.random.randn(pool_output_size, hidden_size)
+        self.params['W2'] = weight_init_std * np.random.randn(pool_output_size, hidden_size)
         self.params['b2'] = np.zeros(hidden_size)
-        self.params['W3'] = weight_init_std * \
-                            np.random.randn(hidden_size, output_size)
+        self.params['W3'] = weight_init_std * np.random.randn(hidden_size, output_size)
         self.params['b3'] = np.zeros(output_size)
 
         # 生成层
@@ -66,7 +63,7 @@ class SimpleConvNet:
 
     def loss(self, x, t):
         """求损失函数
-        参数x是输入数据、t是教师标签
+        参数x是输入数据、t是标签数据
         """
         y = self.predict(x)
         return self.last_layer.forward(y, t)
@@ -91,7 +88,7 @@ class SimpleConvNet:
         Parameters
         ----------
         x : 输入数据
-        t : 教师标签
+        t : 标签数据
 
         Returns
         -------
@@ -114,7 +111,7 @@ class SimpleConvNet:
         Parameters
         ----------
         x : 输入数据
-        t : 教师标签
+        t : 标签数据
 
         Returns
         -------
