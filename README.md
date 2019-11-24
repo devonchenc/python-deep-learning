@@ -14,7 +14,7 @@ Python tutorial and deep learning fundamental
 ## Chapter11. Back propagation algorithm
 ## Chapter12. Optimization and regularization
 ## Chapter13. Convolutional neural networks
-## Chapter14. Residual networks
+## Chapter14. Deep convolutional models
 ## Chapter15. Semantic segmentation
 ## Chapter16. Object detection
 ## Chapter17. Face recognition
