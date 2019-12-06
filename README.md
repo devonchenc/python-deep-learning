@@ -15,6 +15,6 @@ Python tutorial and deep learning fundamental
 ## Chapter12. Optimization and regularization
 ## Chapter13. Convolutional neural networks
 ## Chapter14. Deep convolutional models
-## Chapter15. Semantic segmentation
-## Chapter16. Object detection
+## Chapter15. Object detection
+## Chapter16. Semantic segmentation
 ## Chapter17. Face recognition
