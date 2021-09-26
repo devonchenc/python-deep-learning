@@ -17,3 +17,4 @@ Python tutorial and deep learning fundamental
 ## Chapter14. Deep convolutional models
 ## Chapter15. Object detection
 ## Chapter16. Semantic segmentation
+## Chapter17. Generative adversarial networks
