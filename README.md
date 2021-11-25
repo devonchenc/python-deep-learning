@@ -1,5 +1,5 @@
 # python-deep-learning
-Python tutorial and deep learning fundamental
+Python tutorial and deep learning fundamental(Chinese)
 
 ## Chapter01. Introduction and installation
 ## Chapter02. Basic grammar and variables
